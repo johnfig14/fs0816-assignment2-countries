@@ -21,10 +21,7 @@ module.exports = {
       const startingIndex = settings.index * settings.pageSize;
       return countries.slice(startingIndex, settings.pageSize);
     }
-
-
-
-    // slice the countries array using the paging calculation
+    
   },
 //filter,
 //get,
